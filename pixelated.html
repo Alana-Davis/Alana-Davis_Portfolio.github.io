@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixelated</title>
+  <style>
+    body {
+      font-family: Garamond, sans-serif;
+      margin: 7;
+      line-height: 1.3;
+    }
+    header {
+      background: #FCE5CC;
+      color: #461d65;
+      padding: 3rem;
+      text-align: left;
+    }
+    a {
+    color: #FCE5CC
+    }
+    main {
+    padding: 3rem;
+    background: #D0ADC4;
+    color: #461d65 ;
+    }
+    
+    div.resized {
+    padding: 3rem;
+    background: #461d65;
+    color: #D0ADC4 ;
+    }
+    
+    section {
+      margin-bottom: 3rem;
+    text-align: center
+    }
+    footer {
+      background: #744B93;
+      color: #FCE5CC;
+      text-align: center;
+      padding: 2rem;
+    }
+    
+    div.pixelated {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 #461d65, 0 6px 20px 0 #D0ADC4;
+    margin-bottom: 25px;
+    align-content: center
+    }
+
+    div.description {
+    text-align: center;
+    padding: 10px 20px;
+    }
+    
+    div.OG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+    }
+
+    div.OG img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pixelated</h1>
+    <p>While exploring pixel art, I created 8 images; four from extraction from more detailed images, and four from resizing larger images. Each of the four was made following only one of the following dimensions:</p>
+    <p>16 pixels x 16 pixels (256 pixels)</p>
+    <p>32 pixels x 32 pixels (1024 pixels)</p>
+    <p>64 pixels x 64 pixels (4096 pixels)</p>
+    <p>128 pixels x 128 pixels (16384 pixels)</p>
+    <p>To do this, editing tools in Adobe Photoshop were utilized, one of which is the Resize tool.
+    Images, including those below, were reduced in resolution and transformed into the images further below.</p>
+    <p>While creating these images, I struggled to find content that would be recognizable at such low resolutions; however, I discovered that, the simpler the content, the easier it was to discern. My first idea was an eye, since we are all biologically programmed to detect those in anything we look at. From there, I tried to select more content that reflected upon the other things that make us human.</p>
+    <div class="OG">
+    <img class = "OG" src="Pixelated/extracted32_OG.jpeg" alt="OGFlower" style="width:50%">
+    <img class = "OG" src="Pixelated/resized64_OG.jpg" alt="OGSiblings" style="width:100%">
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Extracted Images</h2>
+      <div class="pixelated">
+      <img src="Pixelated/extracted16.jpg" alt="Blink" style="width:100%">
+      <div class="description">
+      <p>Blink (16x16)</p>
+      </div>
+      </div>
+      <p>An eye extracted from a face.</p>
+    </section>
+      
+    <section>
+      <div class="pixelated">
+      <img src="Pixelated/extracted32.jpg" alt="Flower" style="width:100%">
+      <div class="description">
+      <p>Flower (32x32)</p>
+      </div>
+      </div>
+      <p>A flower extracted from a vine.</p>
+    </section>
+      
+    <section>
+      <div class="pixelated">
+      <img src="Pixelated/extracted64.jpg" alt="BloodOrange" style="width:100%">
+      <div class="description">
+      <p>Blood Orange (64x64)</p>
+      </div>
+      </div>
+      <p>Blood extracted from an orange.</p>
+    </section>
+      
+    <section>
+      <div class="pixelated">
+      <img src="Pixelated/extracted128.jpg" alt="PondPlants" style="width:100%">
+      <div class="description">
+      <p>Pond Plants (128x128)</p>
+      </div>
+      </div>
+      <p>Plants extracted from a pond.</p>
+    </section>
+    
+  </main>
+  <div class="resized">
+      
+    <section>
+      <h2>Resized Images</h2>
+      <div class="pixelated">
+      <img src="Pixelated/resized128.jpg" alt="Circuit" style="width:100%">
+      <div class="description">
+      <p>Machine (128x128)</p>
+      </div>
+      </div>
+      <p>I remember reading somewhere that, as we are a part of the universe, we are essentially the universe observing itself. This is if a motherboard had the ability to perceive itself.</p>
+    </section>
+      
+    <section>
+      <div class="pixelated">
+      <img src="Pixelated/resized64.jpg" alt="Siblings" style="width:100%">
+      <div class="description">
+      <p>Them (64x64)</p>
+      </div>
+      </div>
+      <p>My two younger siblings. They aren't this little anymore.</p>
+    </section>
+      
+    <section>
+      <div class="pixelated">
+      <img src="Pixelated/resized32.jpg" alt="Hand" style="width:100%">
+      <div class="description">
+      <p>Me (32x32)</p>
+      </div>
+      </div>
+      <p>Just my hand.</p>
+    </section>
+      
+    <section>
+     <div class="pixelated">
+      <img src="Pixelated/resized16.jpg" alt="Earth" style="width:100%">
+      <div class="description">
+      <p>We (16x16)</p>
+      </div>
+      </div>
+      <p>All of us.</p>
+    </section>
+</div>
+
+  <footer>
+    <p>&copy; 2025 Alana Davis</p>
+    <a href="index.html">Return to Home</a>
+  </footer>
+</body>
+</html>
